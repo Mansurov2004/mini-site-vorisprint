@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+body {
+    font-family: "Arial" sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+}
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.theme-controls {
+    display: flex;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 10;
+}
+.theme-controls button{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.theme-controls button+button{
+    margin-left: 5px;
+}
+.dark-mode button{
+background-color: #222;
+border: 1px solid #fff;
+color: #fff;
+} 
+.site-header {
+    text-align: center;
+    padding: 40px;
+}
+img {
+    width: 250px;
+    height: 250px;
+    border: gold solid 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.site-header-word {
+    line-height: 16px;
+    margin-top: 26px;
+}
+.site-header-title {
+    font-size: 50px;
+    letter-spacing: 6px;
+}
+p {
+   margin-bottom: 90px;
+   font-size: 23px;
+   letter-spacing: 5px;
+}
+.dark-mode .site-header iframe{
+    border: gold solid 2px;
+}
+.site-header iframe{
+    border: #000 solid 2px;
+}  
+.services-contacts {
+    display: flex;
+}
+.services, .contacts {
+    width: 50%;
+}
+.services li, 
+.contacts li {
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+.dark-mode a{
+    color: gold;
+}
+a {
+    text-decoration: none;
+    border-bottom: solid 2px gold;
+    display: inline-block;
+    color: #222;
+    font-size: 21px;
+    transition: background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.dark-mode .contacts-list a:hover{
+    color: #000;
+}
+.dark-mode .contacts-list a:hover{
+    color: #000;
+}
+.dark-mode .contacts-list a:hover{
+    color: #000;
+}
+.contacts a:hover{
+    background-color: gold;
+}
+.contacts a:focus{
+    background-color: yellow;
+}
+.contacts a:active{
+    background-color: orange;
+}
+
+.map{
+    text-align: center;
+}
+.dark-mode .map iframe {
+    border: solid gold 2px;
+}
+.map iframe {
+    border: solid #000 2px;
+}
